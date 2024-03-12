@@ -1,0 +1,55 @@
+/* Aligner le formulaire au centre de la page */
+.formun {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style pour les labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style pour les champs de texte */
+  input[type="text"], input[type="number"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour la liste de sélection */
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour le bouton de réinitialisation */
+  input[type="reset"] {
+    background-color: #ddd;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style pour le bouton de soumission */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

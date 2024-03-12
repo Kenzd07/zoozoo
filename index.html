@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="conn.css">
+</head>
+<body background="1.jpg">
+    <div class="login-box">
+        <h1>Connection Espace Membre</h1>      
+    <form method="post" action="register.php">
+       <div class="user-box"> Nom D'utilisateur : <input type="text" name="login"> </div>
+        <div class="user-box">Mot De Passe: <input type="password" name="mdp"> </div>
+        <div class="user-box">Poste : <input type="text" list="fonction" name="fonction"
+        />
+    <datalist id="fonction">
+        <option value="directeur">Directeur</option>
+        <option value="employe">Salarié</option>
+    </datalist> </div>
+        <input class="a" type="submit"   value="S'identifier">
+        <input class="a" type="reset"   value="Retour">
+    </form>
+    
+</div>
+</body>
+</html>

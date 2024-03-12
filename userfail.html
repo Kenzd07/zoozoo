@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="conn.css">
+</head>
+<body>
+    <div class="login-box">
+        <h1>Votre mdp, login et/ou fonction est errone</h1>      
+    <form method="post" action="register.php">
+       <div class="user-box"> Saisir LOGIN : <input type="text" name="login"> </div>
+        <div class="user-box">Saisir un MDP : <input type="password" name="mdp"> </div>
+        <div class="user-box">fonction : <input type="text" list="fonction" name="fonction"
+        placeholder="fonction"/>
+    <datalist id="fonction">
+        <option value="directeur">directeur</option>
+        <option value="employe">employe</option>
+    </datalist> </div>
+        <input class="a" type="submit"   value="S'identifier">
+        <input class="a" type="reset"   value="Annuler">
+    </form>
+    
+</div>
+</body>
+</html>
+</html>

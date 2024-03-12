@@ -1,0 +1,31 @@
+<html>
+     
+<form Method="POST"action="ajt_esp.php">
+<legend><center><h1>Ajout d'une éspèce</h1></center></legend>
+<link rel="stylesheet" href="ajtesp.css">
+    <table style="margin: 0 auto;">
+        <tr>
+            <td><label>Race : </label> </td><td><input TYPE = "text" NAME="race" VALUE=""></td></tr><br>
+            <td> <label> Alimentation :  </label></td><td><INPUT TYPE = "text" list="alimentation" NAME="alimentation" VALUE="">
+            <datalist id="alimentation">
+                <option value="Omnivore">Omnivore</option>
+                <option value="Herbivore">Herbivore</option>
+                <option value="Carnivore">Carnivore</option>
+            </datalist> </td> </tr>
+       
+        
+           
+            <td> <label> Durée de vie :</label></td> <td><INPUT TYPE = "text" NAME="durée_vie" VALUE=""></td>
+            </tr>
+            <td> <label> Aquatique : </label></td> <td><INPUT TYPE = "text" NAME="aquatique" VALUE="">      </td>            
+            </tr>
+        
+        
+        
+            <td> <INPUT TYPE = "reset" VALUE="Annuler"></td>
+            <td> <INPUT TYPE = "submit" VALUE="Valider"></td>
+        </tr>
+
+    </table>
+</form> 
+</html>

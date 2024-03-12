@@ -1,0 +1,28 @@
+<html>
+     <link rel="stylesheet" href="acdb.css">
+<form Method="POST"action="ajtenc.php">
+
+    <table border =1>
+        <tr>
+            <td colspan="2" > ID Enclo : <input TYPE = "text" NAME="id_enclos" maxlength="3" VALUE=""></td>
+            <td colspan="2"> Nom Enclo: <INPUT TYPE = "text" NAME="nom_enclo" VALUE=""></td>
+            
+        </tr>
+        
+        <tr>    
+            <td colspan="2"> Capacité max: <INPUT TYPE = "text" NAME="capacite_max" VALUE=""></td>
+            <td colspan="2"> Taille enclo(m2)<INPUT TYPE = "text" NAME="taille_enclo" VALUE=""></td>                   
+        </tr>
+        
+        <tr>
+            <td colspan="2" > Eau : <input type="radio" name="yes" value="1"><b>Oui</b>
+                                    <input type="radio" name="yes" value="0"><b>Non</b>
+            </td>
+            <td> Résponsable(ID_employé) : <INPUT TYPE = "number" NAME="responsable" VALUE=""></td></td>
+            <td> <INPUT TYPE = "reset" VALUE="Annuler"></td>
+            <td> <INPUT TYPE = "submit" VALUE="Valider"></td>
+        </tr>
+
+    </table>
+</form> 
+</html>

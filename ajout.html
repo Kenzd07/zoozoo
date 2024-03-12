@@ -1,0 +1,27 @@
+<html>
+    <link rel="stylesheet" href="abcd.css">
+     
+<form Method="POST"action="ajt.php" class="formun">
+<center><h1>Ajout d'un animal</h1></center>
+    <table style="margin: 0 auto;">
+        <tr>
+            <td><label> Date de Naissance : </label></td> <td><input TYPE = "date" NAME="date_naissance" VALUE=""></td>
+            </tr>
+            <td><label> Sexe :</label>  <td><INPUT TYPE = "text" list="sexe" NAME="sexe" VALUE=""></td>
+            <datalist id="sexe">
+                <option value="M">Male</option>
+                <option value="F">Femelle</option>
+            </datalist> </td>   </tr>
+            <td><label> Appélation :</label> <td><INPUT TYPE = "text" NAME="pseudo" VALUE=""></td><br>
+            </tr>
+            <td><label> Infos supplémentaire</label><td><INPUT TYPE = "text" NAME="commentaire" VALUE=""></td>  
+            </tr>                 
+            <td><label> ID de l'éspèce :</label> <td><INPUT TYPE = "number" NAME="id_esp" VALUE=""></td>
+            </tr>
+            <td> <INPUT TYPE = "reset" VALUE="Annuler"></td>
+            <td> <INPUT TYPE = "submit" VALUE="Valider"></td>
+        </tr>
+
+    </table>
+</form> 
+</html>
